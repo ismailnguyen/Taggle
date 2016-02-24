@@ -7,6 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="@color/dim_foreground_disabled_material_dark"
     tools:context=".HomeActivity">
 
     <android.support.design.widget.AppBarLayout
@@ -23,7 +24,8 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_home" />
+    <include
+        layout="@layout/content_home" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/button_refresh"

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.gnr.esgi.googlenewsreader.activities.TagSettingsActivity">
+    tools:context="com.gnr.esgi.taggle.activitie.TagSettingsActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/tag_settings_app_bar"

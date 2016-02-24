@@ -13,8 +13,9 @@
     <ListView
         android:id="@+id/news_list"
         android:choiceMode="multipleChoice"
-        android:divider="#c7c7c7"
-        android:dividerHeight="1dp"
+        android:divider="@color/dim_foreground_disabled_material_dark"
+        android:dividerHeight="4dp"
+        android:padding="5dip"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
 

@@ -1,10 +1,11 @@
 <resources>
-    <string name="app_name">GoogleNews Reader</string>
+    <string name="app_name">Taggle</string>
 
     <string name="toolbar_tags">Tags</string>
     <string name="toolbar_tags_settings">Tags settings</string>
     <string name="toolbar_settings">Settings</string>
     <string name="toolbar_refresh">Refresh settings</string>
+    <string name="toolbar_bookmarks">Bookmarks</string>
     <string name="topic_headlines">Headlines</string>
 
     <string name="snackbar_close">Close</string>
@@ -29,9 +30,12 @@
 
     <string name="title_activity_tag">Tags</string>
     <string name="title_activity_tag_settings">Tags settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_bookmarks">Bookmarks</string>
 
     <string name="detailArticle_share">Share</string>
     <string name="detailArticle_viewOnline">View online</string>
+    <string name="detailArticle_bookmarks">Add to bookmark</string>
 
     <string name="hour_ago">1 hour ago</string>
     <string name="hours_ago"> hours ago</string>
@@ -41,7 +45,6 @@
 
     <string name="delete">Delete</string>
 
-    <string name="title_activity_settings">Settings</string>
     <string name="settings_night_mode">Night mode</string>
     <string name="settings_purge">Reset</string>
 

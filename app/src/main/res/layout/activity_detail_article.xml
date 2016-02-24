@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.gnr.esgi.googlenewsreader.activities.DetailArticleActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.gnr.esgi.taggle.activitie.DetailArticleActivity"
     android:orientation="vertical">
 
     <ScrollView
@@ -12,6 +13,7 @@
         android:layout_height="match_parent">
 
         <LinearLayout
+            android:id="@+id/detail_article_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
@@ -99,20 +101,26 @@
                 android:paddingLeft="10dip"
                 android:paddingRight="10dip" />
 
-            <TextView
-                android:id="@+id/detail_article_share"
-                android:text="@string/detailArticle_share"
-                android:textColor="#129bae"
-                android:typeface="sans"
-                android:textSize="15dip"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingTop="25dip"
-                android:paddingBottom="15dip"
-                android:paddingLeft="10dip" />
-
         </LinearLayout>
 
         </ScrollView>
 
-</LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/detail_article_button_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/detail_article_picture"
+        app:layout_anchorGravity="bottom|left|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_menu_share" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/detail_article_button_bookmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/detail_article_picture"
+        app:layout_anchorGravity="bottom|right|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/btn_star_big_off" />
+
+</android.support.design.widget.CoordinatorLayout>
