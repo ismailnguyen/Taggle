@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.gnr.esgi.googlenewsreader.activities.DetailArticleActivity"
+    tools:context="com.gnr.esgi.taggle.activitie.DetailArticleActivity"
     android:orientation="vertical">
 
     <ScrollView

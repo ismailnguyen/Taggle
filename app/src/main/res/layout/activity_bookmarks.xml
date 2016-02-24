@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/dim_foreground_disabled_material_dark"
-    tools:context="com.gnr.esgi.googlenewsreader.activities.BookmarksActivity">
+    tools:context="com.gnr.esgi.taggle.activitie.BookmarksActivity">
 
     <ListView
         android:id="@+id/bookmarks_list"

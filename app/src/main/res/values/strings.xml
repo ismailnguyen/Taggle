@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GoogleNews Reader</string>
+    <string name="app_name">Taggle</string>
 
     <string name="toolbar_tags">Tags</string>
     <string name="toolbar_tags_settings">Tags settings</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.gnr.esgi.googlenewsreader"
+    package="com.gnr.esgi.taggle"
     android:versionCode="1"
     android:versionName="0.1.0">
 
@@ -9,14 +9,14 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name=".GNRApplication"
+        android:name="com.gnr.esgi.taggle.Taggle"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activities.HomeActivity"
+            android:name="com.gnr.esgi.taggle.activitie.HomeActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -26,27 +26,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.DetailArticleActivity"
+            android:name="com.gnr.esgi.taggle.activitie.DetailArticleActivity"
             android:theme="@style/AppTheme.NoActionBar" />
 
-        <service android:name=".services.RefreshService" />
+        <service android:name="com.gnr.esgi.taggle.service.RefreshService" />
 
         <activity
-            android:name=".activities.TagActivity"
+            android:name="com.gnr.esgi.taggle.activitie.TagActivity"
             android:label="@string/title_activity_tag" />
         <activity
-            android:name=".activities.TagSettingsActivity"
+            android:name="com.gnr.esgi.taggle.activitie.TagSettingsActivity"
             android:label="@string/title_activity_tag_settings"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.WebViewActivity"
+            android:name="com.gnr.esgi.taggle.activitie.WebViewActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.SettingsActivity"
+            android:name="com.gnr.esgi.taggle.activitie.SettingsActivity"
             android:label="@string/title_activity_settings" />
 
         <activity
-            android:name=".activities.BookmarksActivity"
+            android:name="com.gnr.esgi.taggle.activitie.BookmarksActivity"
             android:label="@string/title_activity_bookmarks"/>
 
     </application>

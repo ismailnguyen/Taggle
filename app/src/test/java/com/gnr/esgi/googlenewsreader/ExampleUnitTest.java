@@ -1,4 +1,4 @@
-package com.gnr.esgi.googlenewsreader;
+package com.gnr.esgi.taggle;
 
 import org.junit.Test;
 

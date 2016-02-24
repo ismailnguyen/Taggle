@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.gnr.esgi.googlenewsreader.activities.WebViewActivity">
+    tools:context="com.gnr.esgi.taggle.activitie.WebViewActivity">
 
     <WebView
         xmlns:android="http://schemas.android.com/apk/res/android"
